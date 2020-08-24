@@ -7,6 +7,7 @@ app.get('/api',(req,res) => {
         method: 'GET',
         name: "Yuthana Wareesri"
     })
+    console.log("New a Get request")
 })
 
 app.post('/api',(req,res) => {
@@ -14,6 +15,7 @@ app.post('/api',(req,res) => {
         method: 'POST',
         name: "Yuthana Wareesri"
     })
+    console.log("New a POST request")
 })
 
 app.listen(port,() => {
