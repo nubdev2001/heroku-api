@@ -75,5 +75,5 @@ app.get('/get_status',(req,res)=>{
 
 app.post('/post',(req,res) => {
     res.send("Success");
-    console.log(req);
+    console.log(req.body);
 })
