@@ -19,5 +19,5 @@ app.post('/api',(req,res) => {
 })
 
 app.listen(port,() => {
-    console.log("[Server] => Running Now")
+    console.log("[Server] => Running Now On PORT : ",port)
 })
