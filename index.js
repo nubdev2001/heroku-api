@@ -72,3 +72,8 @@ app.get('/get_status',(req,res)=>{
 		res.json({status: results[0]['value']})
 	})
 })
+
+app.post('/post',(req,res) => {
+    res.send("Success");
+    console.log(req);
+})
